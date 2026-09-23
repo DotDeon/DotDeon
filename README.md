@@ -1,6 +1,10 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/DotDeon/DotDeon/main/assets/header.svg" alt="Deon Roos, software engineer, Pretoria, South Africa" width="100%" />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/DotDeon/DotDeon/main/assets/header-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/DotDeon/DotDeon/main/assets/header-light.svg" />
+  <img src="https://raw.githubusercontent.com/DotDeon/DotDeon/main/assets/header-light.svg" alt="Deon Roos, software engineer, Pretoria, South Africa" width="100%" />
+</picture>
 
 <img src="https://raw.githubusercontent.com/DotDeon/DotDeon/main/assets/typing.svg" alt="I build web platforms, iOS apps, and the backends under them" width="760" />
 
@@ -98,7 +102,5 @@ which is either confidence or a bad Friday.
 <div align="center">
 
 <a href="https://x.com/deondotjs"><img src="https://img.shields.io/badge/Find%20me%20on%20X-0a0a0a?style=for-the-badge&logo=x&logoColor=white" alt="X" /></a>
-
-<img src="https://raw.githubusercontent.com/DotDeon/DotDeon/main/assets/footer.svg" alt="" width="100%" />
 
 </div>
