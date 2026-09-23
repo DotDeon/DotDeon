@@ -22,10 +22,9 @@
         font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
         font-size: 88px; font-weight: 800; letter-spacing: -3.5px; fill: url(#shine);
       }
-      .c {
+      .sub {
         font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace;
-        font-size: 14px; fill: #6b6b6b;
-        animation: wave 3.6s ease-in-out infinite;
+        font-size: 14px; letter-spacing: 2.2px; fill: #6b6b6b;
       }
       .rule { stroke: #c8c8c8; stroke-width: 1.25; }
 
@@ -52,51 +51,8 @@
       @keyframes lift { from { transform: translateY(26px); } to { transform: none; } }
       @keyframes drop { from { transform: translateY(-14px); } to { transform: none; } }
 
-      /* Loop: a slow ripple through the location line. */
-      @keyframes wave {
-        0%, 100% { transform: translateY(0); }
-        50% { transform: translateY(-2.5px); }
-      }
-      .c0 { animation-delay: 0.0s; }
-      .c1 { animation-delay: 0.045s; }
-      .c2 { animation-delay: 0.09s; }
-      .c3 { animation-delay: 0.135s; }
-      .c4 { animation-delay: 0.18s; }
-      .c5 { animation-delay: 0.225s; }
-      .c6 { animation-delay: 0.27s; }
-      .c7 { animation-delay: 0.315s; }
-      .c9 { animation-delay: 0.405s; }
-      .c10 { animation-delay: 0.45s; }
-      .c11 { animation-delay: 0.495s; }
-      .c12 { animation-delay: 0.54s; }
-      .c13 { animation-delay: 0.585s; }
-      .c14 { animation-delay: 0.63s; }
-      .c15 { animation-delay: 0.675s; }
-      .c16 { animation-delay: 0.72s; }
-      .c18 { animation-delay: 0.81s; }
-      .c20 { animation-delay: 0.9s; }
-      .c21 { animation-delay: 0.945s; }
-      .c22 { animation-delay: 0.99s; }
-      .c23 { animation-delay: 1.035s; }
-      .c24 { animation-delay: 1.08s; }
-      .c25 { animation-delay: 1.125s; }
-      .c26 { animation-delay: 1.17s; }
-      .c27 { animation-delay: 1.215s; }
-      .c28 { animation-delay: 1.26s; }
-      .c30 { animation-delay: 1.35s; }
-      .c31 { animation-delay: 1.395s; }
-      .c32 { animation-delay: 1.44s; }
-      .c33 { animation-delay: 1.485s; }
-      .c34 { animation-delay: 1.53s; }
-      .c36 { animation-delay: 1.62s; }
-      .c37 { animation-delay: 1.665s; }
-      .c38 { animation-delay: 1.71s; }
-      .c39 { animation-delay: 1.755s; }
-      .c40 { animation-delay: 1.8s; }
-      .c41 { animation-delay: 1.845s; }
-
       @media (prefers-reduced-motion: reduce) {
-        .rule, .unfoldUp, .unfoldDown, .nameLift, .subDrop, .c { animation: none; }
+        .rule, .unfoldUp, .unfoldDown, .nameLift, .subDrop { animation: none; }
       }
     </style>
   </defs>
@@ -111,43 +67,7 @@
 
   <g clip-path="url(#below)">
     <g class="subDrop">
-      <text class="c c0" x="378.5" y="160">S</text>
-      <text class="c c1" x="389.1" y="160">O</text>
-      <text class="c c2" x="399.7" y="160">F</text>
-      <text class="c c3" x="410.3" y="160">T</text>
-      <text class="c c4" x="420.9" y="160">W</text>
-      <text class="c c5" x="431.5" y="160">A</text>
-      <text class="c c6" x="442.1" y="160">R</text>
-      <text class="c c7" x="452.7" y="160">E</text>
-      <text class="c c9" x="473.9" y="160">E</text>
-      <text class="c c10" x="484.5" y="160">N</text>
-      <text class="c c11" x="495.1" y="160">G</text>
-      <text class="c c12" x="505.7" y="160">I</text>
-      <text class="c c13" x="516.3" y="160">N</text>
-      <text class="c c14" x="526.9" y="160">E</text>
-      <text class="c c15" x="537.5" y="160">E</text>
-      <text class="c c16" x="548.1" y="160">R</text>
-      <text class="c c18" x="569.3" y="160">&#183;</text>
-      <text class="c c20" x="590.5" y="160">P</text>
-      <text class="c c21" x="601.1" y="160">R</text>
-      <text class="c c22" x="611.7" y="160">E</text>
-      <text class="c c23" x="622.3" y="160">T</text>
-      <text class="c c24" x="632.9" y="160">O</text>
-      <text class="c c25" x="643.5" y="160">R</text>
-      <text class="c c26" x="654.1" y="160">I</text>
-      <text class="c c27" x="664.7" y="160">A</text>
-      <text class="c c28" x="675.3" y="160">,</text>
-      <text class="c c30" x="696.5" y="160">S</text>
-      <text class="c c31" x="707.1" y="160">O</text>
-      <text class="c c32" x="717.7" y="160">U</text>
-      <text class="c c33" x="728.3" y="160">T</text>
-      <text class="c c34" x="738.9" y="160">H</text>
-      <text class="c c36" x="760.1" y="160">A</text>
-      <text class="c c37" x="770.7" y="160">F</text>
-      <text class="c c38" x="781.3" y="160">R</text>
-      <text class="c c39" x="791.9" y="160">I</text>
-      <text class="c c40" x="802.5" y="160">C</text>
-      <text class="c c41" x="813.1" y="160">A</text>
+      <text class="sub" x="601" y="160" text-anchor="middle">SOFTWARE ENGINEER &#183; PRETORIA, SOUTH AFRICA</text>
     </g>
   </g>
 </svg>
