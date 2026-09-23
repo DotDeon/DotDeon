@@ -59,12 +59,11 @@ greener than my public repo count suggests.
 
 | Project | What it is | Built with |
 |---|---|---|
+| **Crooh** | Field service management for service businesses. Job cards, scheduling, time tracking, inventory, inspections and the client comms around them. | Next.js, Convex, Expo |
+| **Crooh Rentals** | The operations layer for property. Maintenance, inspections, statutory compliance, assets and contractors across residential and commercial portfolios, on the Crooh field-service engine. | Next.js, Convex |
 | **Bulq** | Trade pricing for Shopify stores that are not on Plus. Admin UI, OAuth, webhooks and app proxy run from one deployment, and checkout pricing runs in a Shopify discount function. | Convex, Shopify Functions |
-| **Nota** | Live shared-outline notes for sermons, classes and meetings. The host reveals points in real time, everyone writes their own notes around those anchors. | Next.js, Convex |
-| **Pause** | Identity-first habit app for iOS. Puts deliberate friction between you and the apps eating your day, and helps you build the habits you actually want. | Swift, Screen Time APIs, watchOS |
-| **Fishy Guitar** | Guitar practice that does not stink. Structured skills, real progress tracking, built for people who keep quitting. | Swift, Convex |
-| **MyNewsDay** | Reads the day's news and my social feeds, works out what is worth a reply, and drafts posts in my voice. Nothing posts automatically, ever. | Next.js, Convex, AI SDK |
-| **Beatcovery** | Music discovery app. Search with real filters, keep a collection worth coming back to. | Expo, React Native, Supabase |
+| **Pauz** | Identity-first habit app for iOS. Puts deliberate friction between you and the apps eating your day, and helps you build the habits you actually want to live into. | Swift, Screen Time APIs, watchOS |
+| **Hey Cardboard** | Every card you own, priced. Scan a shelf of Pokemon, sports or Yu-Gi-Oh cards and know what the collection is worth. | iOS, Vercel |
 
 ## Where the commits go
 
