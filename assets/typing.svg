@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="56" viewBox="0 0 760 56" role="img" aria-label="I build web platforms, iOS apps, and the backends under them. Next.js · Convex · Swift · Expo · AI. Most of it ships to real customers. Most of it lives in private repositories">
+  <style>
+    text {
+      font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace;
+      font-size: 16px; font-weight: 600; fill: #6e7681;
+    }
+    .cur { fill: #6e7681; }
+    @keyframes show {
+      0%, 23.125% { opacity: 1; }
+      23.135%, 100% { opacity: 0; }
+    }
+    @keyframes slide0 {
+      0% { transform: translateX(0); }
+      10.625% { transform: translateX(576.0px); }
+      23.125% { transform: translateX(576.0px); }
+      23.135%, 100% { transform: translateX(0); }
+    }
+    .mask0 { animation: slide0 16.0s linear 0.0s infinite; }
+    .text0 { animation: show 16.0s step-end 0.0s infinite; }
+    .cur0 { animation: show 16.0s step-end 0.0s infinite, slide0 16.0s linear 0.0s infinite; }
+    @keyframes slide1 {
+      0% { transform: translateX(0); }
+      10.625% { transform: translateX(345.6px); }
+      23.125% { transform: translateX(345.6px); }
+      23.135%, 100% { transform: translateX(0); }
+    }
+    .mask1 { animation: slide1 16.0s linear 4.0s infinite; }
+    .text1 { animation: show 16.0s step-end 4.0s infinite; }
+    .cur1 { animation: show 16.0s step-end 4.0s infinite, slide1 16.0s linear 4.0s infinite; }
+    @keyframes slide2 {
+      0% { transform: translateX(0); }
+      10.625% { transform: translateX(326.4px); }
+      23.125% { transform: translateX(326.4px); }
+      23.135%, 100% { transform: translateX(0); }
+    }
+    .mask2 { animation: slide2 16.0s linear 8.0s infinite; }
+    .text2 { animation: show 16.0s step-end 8.0s infinite; }
+    .cur2 { animation: show 16.0s step-end 8.0s infinite, slide2 16.0s linear 8.0s infinite; }
+    @keyframes slide3 {
+      0% { transform: translateX(0); }
+      10.625% { transform: translateX(384.0px); }
+      23.125% { transform: translateX(384.0px); }
+      23.135%, 100% { transform: translateX(0); }
+    }
+    .mask3 { animation: slide3 16.0s linear 12.0s infinite; }
+    .text3 { animation: show 16.0s step-end 12.0s infinite; }
+    .cur3 { animation: show 16.0s step-end 12.0s infinite, slide3 16.0s linear 12.0s infinite; }
+    @media (prefers-reduced-motion: reduce) {
+      .mask0, .text0, .cur0, .mask1, .text1, .cur1,
+      .mask2, .text2, .cur2, .mask3, .text3, .cur3 { animation: none; }
+      .text0 { opacity: 1; }
+      .mask0 { transform: translateX(9999px); }
+    }
+  </style>
+  <mask id="mask0">
+    <rect class="mask0" x="-484.0" y="0" width="576.0" height="56" fill="#fff"/>
+  </mask>
+  <g class="text0" mask="url(#mask0)" opacity="0">
+    <text x="92.0" y="35">I build web platforms, iOS apps, and the backends under them</text>
+  </g>
+  <rect class="cur cur0" x="92.0" y="19" width="9" height="20" opacity="0"/>
+  <mask id="mask1">
+    <rect class="mask1" x="-138.4" y="0" width="345.6" height="56" fill="#fff"/>
+  </mask>
+  <g class="text1" mask="url(#mask1)" opacity="0">
+    <text x="207.2" y="35">Next.js · Convex · Swift · Expo · AI</text>
+  </g>
+  <rect class="cur cur1" x="207.2" y="19" width="9" height="20" opacity="0"/>
+  <mask id="mask2">
+    <rect class="mask2" x="-109.6" y="0" width="326.4" height="56" fill="#fff"/>
+  </mask>
+  <g class="text2" mask="url(#mask2)" opacity="0">
+    <text x="216.8" y="35">Most of it ships to real customers</text>
+  </g>
+  <rect class="cur cur2" x="216.8" y="19" width="9" height="20" opacity="0"/>
+  <mask id="mask3">
+    <rect class="mask3" x="-196.0" y="0" width="384.0" height="56" fill="#fff"/>
+  </mask>
+  <g class="text3" mask="url(#mask3)" opacity="0">
+    <text x="188.0" y="35">Most of it lives in private repositories</text>
+  </g>
+  <rect class="cur cur3" x="188.0" y="19" width="9" height="20" opacity="0"/>
+</svg>

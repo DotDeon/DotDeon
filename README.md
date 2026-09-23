@@ -1,10 +1,8 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:000000,60:1f1f1f,100:585858&height=190&section=header&text=Deon%20Roos&fontColor=ffffff&fontSize=62&fontAlignY=36&animation=fadeIn&desc=Software%20engineer%20%C2%B7%20Pretoria%2C%20South%20Africa&descSize=16&descAlignY=58" alt="Deon Roos" />
+<img src="https://raw.githubusercontent.com/DotDeon/DotDeon/main/assets/header.svg" alt="Deon Roos, software engineer, Pretoria, South Africa" width="100%" />
 
-<a href="https://readme-typing-svg.demolab.com">
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=21&duration=2600&pause=700&color=6E7681&center=true&vCenter=true&width=720&lines=I+build+web+platforms%2C+iOS+apps%2C+and+the+backends+under+them;Next.js+%C2%B7+Convex+%C2%B7+Swift+%C2%B7+Expo+%C2%B7+AI;Most+of+it+ships+to+real+customers;Most+of+it+lives+in+private+repositories" alt="Typing intro" />
-</a>
+<img src="https://raw.githubusercontent.com/DotDeon/DotDeon/main/assets/typing.svg" alt="I build web platforms, iOS apps, and the backends under them" width="760" />
 
 <a href="https://x.com/deondotjs"><img src="https://img.shields.io/badge/@deondotjs-0a0a0a?style=for-the-badge&logo=x&logoColor=white" alt="X" /></a>
 <img src="https://komarev.com/ghpvc/?username=DotDeon&style=for-the-badge&color=0a0a0a&label=PROFILE+VIEWS" alt="Profile views" />
@@ -101,6 +99,6 @@ which is either confidence or a bad Friday.
 
 <a href="https://x.com/deondotjs"><img src="https://img.shields.io/badge/Find%20me%20on%20X-0a0a0a?style=for-the-badge&logo=x&logoColor=white" alt="X" /></a>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:585858,40:1f1f1f,100:000000&height=110&section=footer" alt="" />
+<img src="https://raw.githubusercontent.com/DotDeon/DotDeon/main/assets/footer.svg" alt="" width="100%" />
 
 </div>
