@@ -9,7 +9,6 @@
 <img src="https://raw.githubusercontent.com/DotDeon/DotDeon/main/assets/typing.svg" alt="I build web platforms, iOS apps, and the backends under them" width="760" />
 
 <a href="https://x.com/deondotjs"><img src="https://img.shields.io/badge/@deondotjs-0a0a0a?style=for-the-badge&logo=x&logoColor=white" alt="X" /></a>
-<img src="https://komarev.com/ghpvc/?username=DotDeon&style=for-the-badge&color=0a0a0a&label=PROFILE+VIEWS" alt="Profile views" />
 
 </div>
 
@@ -33,28 +32,28 @@ greener than my public repo count suggests.
 
 **Front end**
 
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
-![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
-![Expo](https://img.shields.io/badge/Expo-000020?style=flat-square&logo=expo&logoColor=white)
-![Swift](https://img.shields.io/badge/Swift-F05138?style=flat-square&logo=swift&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-0a0a0a?style=flat-square&logo=typescript&logoColor=white)
+![Next.js](https://img.shields.io/badge/Next.js-0a0a0a?style=flat-square&logo=nextdotjs&logoColor=white)
+![React](https://img.shields.io/badge/React-0a0a0a?style=flat-square&logo=react&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind-0a0a0a?style=flat-square&logo=tailwindcss&logoColor=white)
+![Expo](https://img.shields.io/badge/Expo-0a0a0a?style=flat-square&logo=expo&logoColor=white)
+![Swift](https://img.shields.io/badge/Swift-0a0a0a?style=flat-square&logo=swift&logoColor=white)
 
 **Backend and infrastructure**
 
-![Convex](https://img.shields.io/badge/Convex-EE342F?style=flat-square&logo=convex&logoColor=white)
-![Supabase](https://img.shields.io/badge/Supabase-3FCF8E?style=flat-square&logo=supabase&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
-![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white)
-![Shopify](https://img.shields.io/badge/Shopify-7AB55C?style=flat-square&logo=shopify&logoColor=white)
-![Stripe](https://img.shields.io/badge/Stripe-635BFF?style=flat-square&logo=stripe&logoColor=white)
+![Convex](https://img.shields.io/badge/Convex-0a0a0a?style=flat-square&logo=convex&logoColor=white)
+![Supabase](https://img.shields.io/badge/Supabase-0a0a0a?style=flat-square&logo=supabase&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-0a0a0a?style=flat-square&logo=nodedotjs&logoColor=white)
+![Vercel](https://img.shields.io/badge/Vercel-0a0a0a?style=flat-square&logo=vercel&logoColor=white)
+![Shopify](https://img.shields.io/badge/Shopify-0a0a0a?style=flat-square&logo=shopify&logoColor=white)
+![Stripe](https://img.shields.io/badge/Stripe-0a0a0a?style=flat-square&logo=stripe&logoColor=white)
 
 **Tooling**
 
-![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
-![Xcode](https://img.shields.io/badge/Xcode-147EFB?style=flat-square&logo=xcode&logoColor=white)
-![Vitest](https://img.shields.io/badge/Vitest-6E9F18?style=flat-square&logo=vitest&logoColor=white)
-![pnpm](https://img.shields.io/badge/pnpm-F69220?style=flat-square&logo=pnpm&logoColor=white)
+![Git](https://img.shields.io/badge/Git-0a0a0a?style=flat-square&logo=git&logoColor=white)
+![Xcode](https://img.shields.io/badge/Xcode-0a0a0a?style=flat-square&logo=xcode&logoColor=white)
+![Vitest](https://img.shields.io/badge/Vitest-0a0a0a?style=flat-square&logo=vitest&logoColor=white)
+![pnpm](https://img.shields.io/badge/pnpm-0a0a0a?style=flat-square&logo=pnpm&logoColor=white)
 
 ## Things I am building
 
@@ -79,7 +78,11 @@ picture of the last year.
 
 <div align="center">
 
-<img src="https://streak-stats.demolab.com?user=DotDeon&theme=dark&hide_border=true&background=0D1117&ring=FFFFFF&fire=FFFFFF&currStreakLabel=FFFFFF&sideNums=FFFFFF&currStreakNum=FFFFFF&dates=8B949E" alt="Contribution streak" />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/DotDeon/DotDeon/output/streak-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/DotDeon/DotDeon/output/streak-light.svg" />
+  <img src="https://raw.githubusercontent.com/DotDeon/DotDeon/output/streak-light.svg" alt="Contributions, active days, current and longest streak over the last year" width="760" />
+</picture>
 
 </div>
 

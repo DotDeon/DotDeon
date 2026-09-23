@@ -2,6 +2,7 @@
 
 Run from the repo root: python3 assets/build-header.py
 """
+import json
 from pathlib import Path
 
 LINE_Y = 126
@@ -11,6 +12,10 @@ PALETTES = {
     "dark": dict(base="#e8e8e8", band="#ffffff", sub="#8f8f8f", line="#5a5a5a"),
     "light": dict(base="#111111", band="#7a7a7a", sub="#6b6b6b", line="#c8c8c8"),
 }
+
+
+NAME = json.loads((Path(__file__).parent / "name-outlines.json").read_text())
+NAME_PATHS = "\n".join(f'        <path d="{d}"/>' for d in NAME["paths"])
 
 
 def build(p):
@@ -34,10 +39,7 @@ def build(p):
     </clipPath>
 
     <style>
-      .name {{
-        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
-        font-size: 88px; font-weight: 800; letter-spacing: -3.5px; fill: url(#shine);
-      }}
+      .name {{ fill: url(#shine); }}
       .sub {{
         font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace;
         font-size: 14px; letter-spacing: 2.2px; fill: {p['sub']};
@@ -77,7 +79,10 @@ def build(p):
 
   <g clip-path="url(#above)">
     <g class="nameLift">
-      <text class="name" x="600" y="{LINE_Y - 14}" text-anchor="middle">Deon Roos</text>
+      <!-- "Deon Roos" set in Inter Tight 800 and outlined, so it renders the same on every OS. -->
+      <g class="name" transform="translate({round(600 - NAME['width'] / 2, 2)} {LINE_Y - 14})">
+{NAME_PATHS}
+      </g>
     </g>
   </g>
 
