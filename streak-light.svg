@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="96" viewBox="0 0 760 96" role="img" aria-label="2392 contributions in the last year, 148 active days, current streak 6 days, longest streak 20 days">
+  <style>
+    .num { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+            font-size: 30px; font-weight: 700; letter-spacing: -1px; fill: #111111; }
+    .label { font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace;
+              font-size: 10.5px; letter-spacing: 1.8px; fill: #6b6b6b; }
+    .rule { stroke: #c8c8c8; stroke-width: 1; }
+    .cell { animation: rise 0.8s cubic-bezier(.2,.8,.2,1) both; }
+    @keyframes rise { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: none; } }
+    @media (prefers-reduced-motion: reduce) { .cell { animation: none; } }
+  </style>
+  <line class="rule" x1="190.0" y1="30" x2="190.0" y2="78"/>
+  <line class="rule" x1="380.0" y1="30" x2="380.0" y2="78"/>
+  <line class="rule" x1="570.0" y1="30" x2="570.0" y2="78"/>
+  <g class="cell" style="animation-delay:0.15s">
+    <text class="num" x="95.0" y="46" text-anchor="middle">2,392</text>
+    <text class="label" x="95.0" y="70" text-anchor="middle">CONTRIBUTIONS</text>
+  </g>
+  <g class="cell" style="animation-delay:0.27s">
+    <text class="num" x="285.0" y="46" text-anchor="middle">148</text>
+    <text class="label" x="285.0" y="70" text-anchor="middle">ACTIVE DAYS</text>
+  </g>
+  <g class="cell" style="animation-delay:0.39s">
+    <text class="num" x="475.0" y="46" text-anchor="middle">6</text>
+    <text class="label" x="475.0" y="70" text-anchor="middle">CURRENT STREAK</text>
+  </g>
+  <g class="cell" style="animation-delay:0.51s">
+    <text class="num" x="665.0" y="46" text-anchor="middle">20</text>
+    <text class="label" x="665.0" y="70" text-anchor="middle">LONGEST STREAK</text>
+  </g>
+</svg>
